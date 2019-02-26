@@ -17,7 +17,7 @@ rp_module_section="exp"
 rp_module_flags="!arm !aarch64 !32bit"
 
 function sources_lr-beetle-saturn() {
-    gitPullOrClone "$md_build" https://github.com/libretro/beetle-saturn-libretro.git
+    gitPullOrClone "$md_build" https://github.com/alphanu1/Saturn-Mednafen-CRTSwitchRes.git
 }
 
 function build_lr-beetle-saturn() {
